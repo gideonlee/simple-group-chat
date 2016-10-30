@@ -1,0 +1,47 @@
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+div.container {
+	display: none;
+	margin-top: 10px;
+}
+	div.container h1 {
+		border-radius: 5px;
+		border: 2px solid lightblue;
+		margin-top: 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background-color: #63cdff;
+		color: white;
+		text-align: center;
+	}
+	div.container div.chatbox {
+		height: 300px;
+		border-radius: 5px;
+		border: 2px solid grey;
+	}
+		div.container div.chatbox p {
+			margin-bottom: 0px;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		div.container div.chatbox p.grey {
+			font-style: italic;
+			color: grey;
+		}
+	div.container form {
+		padding-bottom: 10px;
+	}
+		div.container form input {
+			height: 32px;
+		}
+		div.container form input[name=message] {
+			width: 100%;
+			margin-top: 10px;
+		}
+		div.container form input[name=submit] {
+			float: right;
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
